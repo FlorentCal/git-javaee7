@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Person {
     private String name;
+    private boolean test;
 
     public Person() {
     }
