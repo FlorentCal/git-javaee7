@@ -8,7 +8,12 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Person {
     private String name;
+<<<<<<< HEAD
     private boolean test;
+=======
+	private int age;
+	private char sexe;
+>>>>>>> develop
 
     public Person() {
     }
